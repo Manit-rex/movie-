@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color:white;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+    width: 650px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sub-container {
+    display: flex;
+    background:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+  }
+  
+  .sub-container {
+    flex: 1;
+  }
+  
+  .sub-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .thor {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .thor h2 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .thor p {
+    margin: 0 0 20px;
+    color: #666;
+  }
+  
+  .thor button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #00eeff;
+    border: none;
+    float: right;
+    margin-top: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
